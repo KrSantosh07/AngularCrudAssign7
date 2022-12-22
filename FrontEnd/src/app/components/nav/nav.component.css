@@ -1,0 +1,12 @@
+.navbar-brand {
+    font-weight: bold;
+    color: black;
+}
+
+.navbar {
+    background-color: aqua;
+}
+
+* {
+    margin: 0;
+}

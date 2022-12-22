@@ -1,0 +1,30 @@
+<app-nav></app-nav>
+
+<div class="container mt-5">
+    <div class="row ">
+        <div class="col-md-2"></div>
+        <div class="col-md-4 border border-3 rounded">
+            <img src="{{myData.img}}" alt="image not found" />
+            <!-- <img src="https://images.unsplash.com/photo-1670791737578-cc9b605ae2eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80"
+                alt="image not found"> -->
+        </div>
+        <div class="col-md-4 border border-3 rounded steel">
+            <div class="ms-5 mt-5">
+                <div class="ms-5">
+                    <h2>Product Details</h2>
+                </div>
+                <div class="fw-bold mt-5 ">
+                    <p>Name: {{myData.name}}</p>
+                    <p>Price: {{myData.price}}</p>
+                    <p>Quantity: {{myData.quantity}}</p>
+                    <p>Category: {{myData.category}}</p>
+                    <p>Description: {{myData.description}}</p>
+                    <div class="ms-5 my-5">
+                        <a routerLink="/" class="btn btn-success">Back</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
